@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+.btn {
+  color: white;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #e4002b;
+  padding: 16px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+label {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: white;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px 24px;
+  border-radius: 30px;
+  background-color: white;
+  color: #1c1c1b;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+html,
+body {
+  font-family: "Nunito Sans", "Kumbh Sans", sans-serif;
+  color: #1c1c1b;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.become-our-partner {
+  background-color: #005098;
+  color: white;
+  padding: 80px 168px;
+}
+
+.become-our-partner .titles h3 {
+  font-size: 52px;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.become-our-partner .titles h4 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  margin-top: 8px;
+}
+
+.become-our-partner form {
+  margin-top: 32px;
+}
+
+.become-our-partner form div:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.become-our-partner form div:first-child div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-right: 24px;
+}
+
+.become-our-partner form div:first-child div div.specialty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.become-our-partner form div:first-child div div.specialty input {
+  border: 1px solid white;
+  background-color: #005098;
+  color: white;
+  margin-right: 16px;
+}
+
+.become-our-partner form div:first-child div div.specialty input:nth-child(2) {
+  background-color: white;
+  color: #1c1c1b;
+}
+
+.become-our-partner form .newsletter-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 40px;
+}
+
+.become-our-partner form .newsletter-check input {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.become-our-partner form .newsletter-check label {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  margin: 0;
+}
+
+.become-our-partner form > div:last-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 24px;
+}
+
+footer {
+  padding: 80px 0;
+  background-color: #1c1c1b;
+}
+
+footer .footer-titles {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .footer-titles h2 {
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+}
+
+footer .footer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+footer .footer-info div a {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 32px;
+}
+
+footer .footer-info div a span:first-child {
+  margin-right: 17.45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-info div a span svg {
+  height: 24px;
+  width: 21.09px;
+}
+
+footer .footer-info div a span svg path {
+  fill: white;
+}
+
+footer .footer-info div a span:last-child {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+/*# sourceMappingURL=style.css.map */
