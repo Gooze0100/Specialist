@@ -50,6 +50,115 @@ a {
   color: white;
 }
 
+.who-we-are {
+  padding: 128px;
+}
+
+.who-we-are .text-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-bottom: 72px;
+}
+
+.who-we-are .text-logo div:first-child h2 {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  margin-bottom: 32px;
+}
+
+.who-we-are .text-logo div:first-child p {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  font-weight: normal;
+  height: 100px;
+  width: 506px;
+}
+
+.who-we-are .text-logo div:last-child {
+  margin-right: 40px;
+}
+
+.who-we-are .text-logo div:last-child svg {
+  width: 288px;
+  height: 215px;
+}
+
+.who-we-are .text-logo div:last-child svg path:last-child {
+  fill: #005098;
+}
+
+.who-we-are .achievements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.who-we-are .achievements div {
+  color: #003f7e;
+}
+
+.who-we-are .achievements div div:first-child {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  padding-bottom: 16px;
+  display: inline-block;
+  border-bottom: 1px solid #003f7e;
+}
+
+.who-we-are .achievements div div:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.who-we-are .achievements div div:last-child span:first-child {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  margin-right: 8px;
+}
+
+.who-we-are .achievements div div:last-child span:last-child {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  width: 118px;
+}
+
+.who-we-are .achievements div div:last-child span:last-child.width {
+  width: 58%;
+}
+
+hr {
+  border: 4px solid #005098;
+}
+
 .why-to-work-with-us {
   padding: 160px 0;
 }

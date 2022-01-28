@@ -20,6 +20,90 @@ a {
   color: white;
 }
 // ===========================
+
+.who-we-are {
+  padding: 128px;
+  .text-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 72px;
+    & div:first-child {
+      h2 {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 0.02em;
+        margin-bottom: 32px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.02em;
+        font-weight: normal;
+        height: 100px;
+        width: 506px;
+      }
+    }
+    & div:last-child {
+      margin-right: 40px;
+      svg {
+        width: 288px;
+        height: 215px;
+        & path:last-child {
+          fill: $background;
+        }
+      }
+    }
+  }
+  .achievements {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    div {
+      color: $secondary;
+      & div:first-child {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+        padding-bottom: 16px;
+        display: inline-block;
+        border-bottom: 1px solid $secondary;
+      }
+
+      & div:last-child {
+        display: flex;
+        align-items: center;
+        & span:first-child {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 36px;
+          letter-spacing: 0.02em;
+          margin-right: 8px;
+        }
+        & span:last-child {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          letter-spacing: 0.02em;
+          width: 118px;
+
+          &.width {
+            width: 58%;
+          }
+        }
+      }
+    }
+  }
+}
+
+hr {
+  border: 4px solid $background;
+}
+
 .why-to-work-with-us {
   padding: 160px 0;
 
