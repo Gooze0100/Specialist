@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   border: none;
+  box-sizing: border-box;
 }
 
 html,
@@ -21,14 +22,194 @@ a {
 }
 // ===========================
 
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  .text {
+    width: 50%;
+    padding: 247px 130px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    & > div {
+      h1 {
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+      h2 {
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 0.02em;
+        color: $secondary;
+        margin-top: 40px;
+        margin-bottom: 48px;
+      }
+    }
+  }
+  .slide-show {
+    width: 50%;
+  }
+}
+
+.second-part {
+  display: flex;
+  flex-wrap: wrap;
+  //   align-items: center;
+  justify-content: center;
+
+  & > div:first-child {
+    width: 50%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  div.description {
+    padding: 110px;
+    width: 50%;
+
+    & > div:first-child {
+      margin-bottom: 20px;
+      svg {
+        path {
+          fill: $primary;
+
+          &:first-child {
+            fill: #e1001a;
+          }
+          &:nth-child(2) {
+            fill: white;
+          }
+        }
+      }
+    }
+    p {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0.02em;
+    }
+  }
+}
+
+.first-form {
+  display: flex;
+  flex-wrap: wrap;
+  .first-block {
+    display: flex;
+    align-items: center;
+    background-color: $background;
+    padding: 110px;
+    flex-grow: 0;
+    width: 50%;
+    & div:first-child {
+      color: white;
+      h2 {
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 42px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+      p {
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        margin-top: 16px;
+        margin-bottom: 14px;
+      }
+    }
+    form {
+      & > div:first-child {
+        display: flex;
+        flex-wrap: wrap;
+        & div {
+          &:first-child {
+            margin-right: 16px;
+
+            width: 47%;
+          }
+          &:last-child {
+            width: 50%;
+          }
+
+          input {
+            width: -webkit-fill-available;
+          }
+        }
+      }
+      & > div:nth-child(2),
+      & > div:nth-child(3),
+      & > div:nth-child(4) {
+        input {
+          width: -webkit-fill-available;
+        }
+      }
+      .selection {
+        label {
+          margin-bottom: 16px;
+        }
+        div {
+          display: flex;
+          flex-wrap: wrap;
+          input {
+            background-color: $background;
+            color: white;
+            border: 1px solid white;
+            margin-bottom: 20px;
+            margin-right: 16px;
+            padding: 8px 16px;
+
+            &:nth-child(2) {
+              color: $primary;
+              background-color: white;
+            }
+          }
+        }
+      }
+      .st-newsletter {
+        margin-top: 14px;
+        margin-bottom: 40px;
+        input {
+          display: inline-block;
+          margin-right: 8px;
+          width: 16px;
+          height: 16px;
+        }
+        label {
+          display: inline-block;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 22px;
+          letter-spacing: 0.02em;
+        }
+      }
+    }
+  }
+  .second-block {
+    width: 50%;
+    flex-grow: 0;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
 .who-we-are {
-  padding: 128px;
+  padding: 110px;
   .text-logo {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
-    padding-bottom: 72px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
     & div:first-child {
+      width: 35%;
       h2 {
         font-weight: 800;
         font-size: 32px;
@@ -46,7 +227,9 @@ a {
       }
     }
     & div:last-child {
-      margin-right: 40px;
+      width: 60%;
+      display: flex;
+      justify-content: flex-end;
       svg {
         width: 288px;
         height: 215px;

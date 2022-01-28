@@ -10,13 +10,13 @@
   <body>
     <div class="hero">
       <div class="text">
-        <title>
-          <h1>Garsiausių pasaulyje, statybinių prekės ženklų oficialus partneris
-          Lietuvoje!</h1>
-        </title>
-        <div>Tapkite mūsų parneriu ir gaukite geriausius pasiūlymus.</div>
         <div>
-          <button type="submit">Gauti specialų pasiūlymą</button>
+          <h1>
+            Garsiausių pasaulyje, statybinių prekės ženklų oficialus partneris
+            Lietuvoje!
+          </h1>
+          <h2>Tapkite mūsų parneriu ir gaukite geriausius pasiūlymus.</h2>
+          <button class="btn" type="submit">Gauti specialų pasiūlymą</button>
         </div>
       </div>
       <div class="slide-show">
@@ -601,11 +601,13 @@
         </div>
       </div>
     </div>
+    <!-- =========== -->
+
     <div class="second-part">
       <div>
-        <img src="" alt="" />
+        <img src="./img/bikuva.png" alt="A lot of tools" />
       </div>
-      <div>
+      <div class="description">
         <div>
           <svg
             width="416"
@@ -664,104 +666,107 @@
             />
           </svg>
         </div>
-        <div>
-          <p>
-            Specialist+ prekės ženklas, sukurtas RM Tools komandos, siūlo platų
-            statybinių įrankių ir jų priedų pasirinkimą. Prekės ženklas jau
-            įvertintas profesionalų ir pamėgtas Baltijos šalyse, sulaukia vis
-            daugiau gerbėjų ir Europoje. Specialist+ išskirtinumas: aukšta
-            kokybė už sąžiningą kainą. Didelė prekių dalis yra sukurta ir
-            pagaminta Europoje. Pabandę Specialist+ gaminius, klientai įvertina
-            europinę kokybę už itin gerą kainą ir tampa nuolatiniais pirkėjais.
-            Patirkite malonumą dirbdami su Specialist+.
-          </p>
-        </div>
+        <p>
+          Specialist+ prekės ženklas, sukurtas RM Tools komandos, siūlo platų
+          statybinių įrankių ir jų priedų pasirinkimą. Prekės ženklas jau
+          įvertintas profesionalų ir pamėgtas Baltijos šalyse, sulaukia vis
+          daugiau gerbėjų ir Europoje. Specialist+ išskirtinumas: aukšta kokybė
+          už sąžiningą kainą. Didelė prekių dalis yra sukurta ir pagaminta
+          Europoje. Pabandę Specialist+ gaminius, klientai įvertina europinę
+          kokybę už itin gerą kainą ir tampa nuolatiniais pirkėjais. Patirkite
+          malonumą dirbdami su Specialist+.
+        </p>
       </div>
     </div>
-    <div class="form">
-      <div>
+    <div class="first-form">
+      <div class="first-block">
         <div>
-          <h2>Tapkite mūsų partneriu</h2>
-          <p>
-            Mes žinome kaip padėti Jūsų verslui ir pateiksime geriausius
-            pasiūlymus, skirtus būtent Jums
-          </p>
-        </div>
-        <form action="" method="post">
           <div>
+            <h2>Tapkite mūsų</h2>
+            <h2>partneriu</h2>
+            <p>
+              Mes žinome kaip padėti Jūsų verslui ir pateiksime geriausius
+              pasiūlymus, skirtus būtent Jums
+            </p>
+          </div>
+          <form action="" method="get">
             <div>
-              <label for="firstName">Vardas</label>
+              <div>
+                <label for="firstName">Vardas</label>
+                <input
+                  type="text"
+                  name="firstName"
+                  id="firstName"
+                  placeholder="Vardenis"
+                />
+              </div>
+              <div>
+                <label for="lastName">Pavardė</label>
+                <input
+                  type="text"
+                  name="lastName"
+                  id="lastName"
+                  placeholder="Pavardenis"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="companyName">Įmonės pavadinimas</label>
               <input
                 type="text"
-                name="firstName"
-                id="firstName"
-                placeholder="Vardenis"
+                name="companyName"
+                id="companyName"
+                placeholder="Lorem ipsum"
               />
             </div>
             <div>
-              <label for="lastName">Pavardė</label>
+              <label for="email">El. paštas</label>
               <input
-                type="text"
-                name="lastName"
-                id="lastName"
-                placeholder="Pavardenis"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Lorem ipsum"
               />
             </div>
-          </div>
-          <div>
-            <label for="companyName">Įmonės pavadinimas</label>
-            <input
-              type="text"
-              name="companyName"
-              id="companyName"
-              placeholder="Lorem ipsum"
-            />
-          </div>
-          <div>
-            <label for="email">El. paštas</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Lorem ipsum"
-            />
-          </div>
-          <div>
-            <label for="phoneNumber">Tel. numeris</label>
-            <input
-              type="tel"
-              name="phoneNumber"
-              id="phoneNumber"
-              placeholder="Lorem ipsum"
-            />
-          </div>
-          <div>
-            <span>Pasirinkite sritį:</span>
             <div>
-              <input type="button" value="Gamybos įmonė" />
-              <input type="button" value="Mažmeninė įmonė" />
+              <label for="phoneNumber">Tel. numeris</label>
+              <input
+                type="tel"
+                name="phoneNumber"
+                id="phoneNumber"
+                placeholder="Lorem ipsum"
+              />
+            </div>
+            <div class="selection">
+              <label>Pasirinkite sritį:</label>
+              <div>
+                <input type="button" value="Gamybos įmonė" />
+                <input type="button" value="Mažmeninė įmonė" />
+                <input type="button" value="Statybos įmonė" />
+                <input type="button" value="Projektinė veikla" />
+              </div>
+            </div>
+            <div class="st-newsletter">
+              <input type="checkbox" name="newsletter" id="newsletter" />
+              <label for="newsletter"
+                >*Sutinkate su privatumo politika ir naujienlaiškių
+                užsakymu</label
+              >
             </div>
             <div>
-              <input type="button" value="Statybos įmonė" />
-              <input type="button" value="Projektinė veikla" />
+              <button class="btn" type="submit">
+                Gauti specialų pasiūlymą
+              </button>
             </div>
-          </div>
-          <div>
-            <input type="checkbox" name="newsletter" id="newsletter" />
-            <label for="newsletter"
-              >*Sutinkate su privatumo politika ir naujienlaiškių
-              užsakymu</label
-            >
-          </div>
-          <div>
-            <button type="submit">Gauti specialų pasiūlymą</button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-      <div>
-        <img src="" alt="" />
+      <div class="second-block">
+        <img src="./img/Irwin_SpeedborMax.png" alt="Irwin drill" />
       </div>
     </div>
+
+    <!-- ============= -->
     <div class="who-we-are">
       <div class="text-logo">
         <div>
