@@ -605,7 +605,15 @@
 
     <div class="second-part">
       <div>
-        <img src="./img/bikuva.png" alt="A lot of tools" />
+        <img
+          src="./img/bikuva_3x.png"
+          alt="A lot of tools"
+          srcset="
+            ./img/bikuva_3x.png 1000w,
+            ./img/bikuva_2x.png  992w,
+            ./img/bikuva_1x.png  320w
+          "
+        />
       </div>
       <div class="description">
         <div>
@@ -682,8 +690,10 @@
       <div class="first-block">
         <div>
           <div>
-            <h2>Tapkite mūsų</h2>
-            <h2>partneriu</h2>
+            <div class="flex">
+              <h2>Tapkite mūsų</h2>
+              <h2>partneriu</h2>
+            </div>
             <p>
               Mes žinome kaip padėti Jūsų verslui ir pateiksime geriausius
               pasiūlymus, skirtus būtent Jums
@@ -762,11 +772,17 @@
         </div>
       </div>
       <div class="second-block">
-        <img src="./img/Irwin_SpeedborMax.png" alt="Irwin drill" />
+        <img
+          src="./img/Irwin_SpeedborMax_3x.png"
+          alt="Irwin drill"
+          srcset="
+            ./img/Irwin_SpeedborMax_3x.png 1000w,
+            ./img/Irwin_SpeedborMax_2x.png  992w,
+            ./img/Irwin_SpeedborMax_1x.png  320w
+          "
+        />
       </div>
     </div>
-
-    <!-- ============= -->
     <div class="who-we-are">
       <div class="text-logo">
         <div>
@@ -832,7 +848,7 @@
           <div>Atidarytos</div>
           <div>
             <span>3</span>
-            <span class="width">specializuotos Spalialist+ parduotuvės</span>
+            <span>specializuotos Spalialist+ parduotuvės</span>
           </div>
         </div>
         <div>
@@ -848,7 +864,15 @@
     <div class="why-to-work-with-us">
       <div class="main-block">
         <div>
-          <img src="./img/Irwin_Closeup_FS.png" alt="Worker with drill" />
+          <img
+            src="./img/Irwin_Closeup_3x.png"
+            alt="Worker with drill"
+            srcset="
+              ./img/Irwin_Closeup_3x.png 1000w,
+              ./img/Irwin_Closeup_2x.png  992w,
+              ./img/Irwin_Closeup_1x.png  320w
+            "
+          />
         </div>
         <div class="second-block">
           <h3>Kodėl verta</h3>
@@ -915,15 +939,15 @@
       </div>
       <form action="" method="get">
         <div>
-          <div>
+          <div class="fit">
             <label for="fname">Vardas</label>
             <input type="text" name="fname" id="fname" placeholder="Vardenis" />
           </div>
-          <div>
+          <div class="fit">
             <label for="lname">Pavardė</label>
             <input type="text" name="lname" id="lname" placeholder="Vardenis" />
           </div>
-          <div>
+          <div class="fit">
             <label for="compName">Įmonės pavadinimas</label>
             <input
               type="text"
@@ -932,7 +956,7 @@
               placeholder="Vardenis"
             />
           </div>
-          <div>
+          <div class="fit">
             <label for="ndEmail">El. paštas</label>
             <input
               type="email"
@@ -941,7 +965,7 @@
               placeholder="Lorem ipsum"
             />
           </div>
-          <div>
+          <div class="fit">
             <label for="ndPhoneNumber">Tel. numeris</label>
             <input
               type="tel"
@@ -971,7 +995,7 @@
         </div>
       </form>
     </div>
-    <footer>
+    <footer class="footer">
       <div class="footer-titles">
         <h2>Turite klausimų?</h2>
         <h2>Susisiekite su mumis</h2>
@@ -997,7 +1021,7 @@
                 />
               </svg>
             </span>
-            <span>Kalvarijų g. 143-16, LT-08352 Vilnius </span>
+            <span>Kalvarijų g. 143-16, LT-08352 Vilnius</span>
           </a>
         </div>
         <div>
@@ -1023,7 +1047,7 @@
                 </defs>
               </svg>
             </span>
-            <span>+370 5 21 69999 </span>
+            <span>+370 5 21 69999</span>
           </a>
         </div>
         <div>
@@ -1042,7 +1066,7 @@
                 />
               </svg>
             </span>
-            <span>info@specialist.lt </span>
+            <span>info@specialist.lt</span>
           </a>
         </div>
         <div>

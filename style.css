@@ -59,6 +59,573 @@ input {
   cursor: pointer;
 }
 
+@media screen and (max-width: 992px) {
+  label {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  input {
+    padding: 8px 24px;
+    line-height: 18px;
+    font-size: 14px;
+  }
+  button.btn {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    padding: 8px 24px;
+  }
+  div.hero div.text {
+    padding: 144px 64px 140px 64px;
+  }
+  div.hero div.text div h1 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  div.hero div.text div h2 {
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+  div.second-part div:first-child img {
+    height: 100%;
+  }
+  div.second-part div.description {
+    padding: 80px 64px;
+  }
+  div.second-part div.description p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  div.first-form div.first-block {
+    padding: 80px 64px;
+  }
+  div.first-form div.first-block > div:first-child div div.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  div.first-form div.first-block > div:first-child div div.flex h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  div.first-form div.first-block > div:first-child div div.flex h2:first-child {
+    margin-right: 6px;
+  }
+  div.first-form div.first-block > div:first-child div p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  div.first-form div.first-block form div:first-child div:first-child {
+    margin-right: 16px;
+    width: 47%;
+  }
+  div.first-form div.first-block form div:first-child div:last-child {
+    width: 48%;
+  }
+  div.first-form div.first-block form div.selection div:last-child input {
+    margin-bottom: 16px;
+  }
+  div.first-form div.first-block form div.st-newsletter {
+    margin-bottom: 32px;
+    margin-top: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.first-form div.first-block form div.st-newsletter label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  div.first-form div.second-block img {
+    height: 100%;
+  }
+  div.who-we-are {
+    padding: 64px;
+  }
+  div.who-we-are div.text-logo div:first-child {
+    width: 50%;
+  }
+  div.who-we-are div.text-logo div:first-child h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  div.who-we-are div.text-logo div:first-child p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  div.who-we-are div.text-logo div:last-child {
+    width: 50%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  div.who-we-are div.text-logo div:last-child svg {
+    width: 60%;
+    height: auto;
+  }
+  div.who-we-are div.achievements {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+  div.who-we-are div.achievements > div {
+    margin-bottom: 5px;
+  }
+  div.who-we-are div.achievements > div div:first-child {
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+  }
+  div.who-we-are div.achievements > div div:last-child {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  div.who-we-are div.achievements > div div:last-child span:first-child {
+    font-size: 28px;
+    line-height: 32px;
+    margin-right: 4px;
+  }
+  div.who-we-are div.achievements > div div:last-child span:last-child {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  div.why-to-work-with-us {
+    padding: 80px 0;
+  }
+  div.why-to-work-with-us div.main-block > div img {
+    height: 100%;
+  }
+  div.why-to-work-with-us div.main-block div.second-block {
+    padding: 0 64px;
+  }
+  div.why-to-work-with-us div.main-block div.second-block h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks {
+    margin-top: 0;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks div {
+    margin-top: 40px;
+    margin-right: 15px;
+    width: 45%;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks div h3 {
+    font-size: 28px;
+    line-height: 32px;
+    width: 100%;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks div h4 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks div p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div:last-of-type {
+    margin-top: 30px;
+  }
+  div.become-our-partner {
+    padding: 80px 40px 64px 40px;
+  }
+  div.become-our-partner div.titles h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  div.become-our-partner div.titles h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  div.become-our-partner form {
+    margin-top: 16px;
+  }
+  div.become-our-partner form div:first-child div {
+    margin-right: 9px;
+  }
+  div.become-our-partner form div:first-child div.fit {
+    width: 24%;
+  }
+  div.become-our-partner form div:first-child > div:last-child {
+    margin: 0;
+  }
+  div.become-our-partner form div:first-child > div:last-child > div.specialty {
+    margin: 0;
+  }
+  div.become-our-partner form div:first-child > div:last-child > div.specialty input {
+    padding: 8px 16px;
+    margin-right: 10px;
+  }
+  div.become-our-partner form div.newsletter-check {
+    margin-top: 32px;
+  }
+  div.become-our-partner form div.newsletter-check label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  div.become-our-partner form div:last-child {
+    margin-top: 32px;
+  }
+  footer.footer {
+    padding: 48px 73px;
+  }
+  footer.footer div.footer-titles h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  footer.footer div.footer-info {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-top: 32px;
+  }
+  footer.footer div.footer-info div a {
+    margin-left: 0;
+  }
+  footer.footer div.footer-info div a span:first-child {
+    margin-right: 16px;
+  }
+  footer.footer div.footer-info div a span:first-child svg {
+    width: 16px;
+    height: 16px;
+  }
+  footer.footer div.footer-info div a span:last-child {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  label {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 17px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+  input {
+    padding: 8px 24px;
+    line-height: 18px;
+    font-size: 12px;
+  }
+  button.btn {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 8px 24px;
+  }
+  div.hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  div.hero div.text {
+    padding: 33px 16px 47px 16px;
+    width: 100%;
+  }
+  div.hero div.text div h1 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  div.hero div.text div h2 {
+    font-size: 22px;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+  div.hero div.slide-show {
+    width: 100%;
+  }
+  div.second-part {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.second-part div:first-child {
+    width: 100%;
+  }
+  div.second-part div:first-child img {
+    height: 100%;
+  }
+  div.second-part div.description {
+    width: 100%;
+    padding: 24px 16px 40px 16px;
+  }
+  div.second-part div.description div:first-child {
+    margin-bottom: 16px;
+    width: 72%;
+  }
+  div.second-part div.description p {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  div.first-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  div.first-form div.first-block {
+    padding: 32px 16px 40px 16px;
+    width: 100%;
+  }
+  div.first-form div.first-block > div:first-child div div.flex {
+    display: block;
+    text-align: center;
+  }
+  div.first-form div.first-block > div:first-child div div.flex h2 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  div.first-form div.first-block > div:first-child div p {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  div.first-form div.first-block form div:first-child div:first-child {
+    margin-right: 0;
+    width: 100%;
+  }
+  div.first-form div.first-block form div:first-child div:last-child {
+    width: 100%;
+  }
+  div.first-form div.first-block form div.selection label {
+    margin-bottom: 8px;
+  }
+  div.first-form div.first-block form div.selection div:last-child input {
+    margin-bottom: 8px;
+    margin-right: 8px;
+  }
+  div.first-form div.first-block form div.st-newsletter {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.first-form div.first-block form div.st-newsletter input {
+    width: 20px;
+    height: 16px;
+  }
+  div.first-form div.first-block form div.st-newsletter label {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+  }
+  div.first-form div.second-block {
+    width: 100%;
+  }
+  div.first-form div.second-block img {
+    height: 100%;
+  }
+  div.who-we-are {
+    padding: 40px 16px;
+  }
+  div.who-we-are div.text-logo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.who-we-are div.text-logo div:first-child {
+    width: 100%;
+  }
+  div.who-we-are div.text-logo div:first-child h2 {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 8px;
+  }
+  div.who-we-are div.text-logo div:first-child p {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  div.who-we-are div.text-logo div:last-child {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 48px;
+  }
+  div.who-we-are div.text-logo div:last-child svg {
+    width: 65%;
+    height: auto;
+  }
+  div.who-we-are div.achievements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.who-we-are div.achievements > div {
+    margin-bottom: 40px;
+  }
+  div.who-we-are div.achievements > div div:first-child {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+  div.who-we-are div.achievements > div div:last-child {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  div.who-we-are div.achievements > div div:last-child span:first-child {
+    font-size: 48px;
+    line-height: 36px;
+    margin-right: 8px;
+  }
+  div.who-we-are div.achievements > div div:last-child span:last-child {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  div.why-to-work-with-us {
+    padding: 0;
+  }
+  div.why-to-work-with-us div.main-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.why-to-work-with-us div.main-block > div {
+    width: 100%;
+  }
+  div.why-to-work-with-us div.main-block > div img {
+    height: 100%;
+  }
+  div.why-to-work-with-us div.main-block div.second-block {
+    padding: 32px 16px 40px 16px;
+  }
+  div.why-to-work-with-us div.main-block div.second-block h3 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks {
+    margin-top: 0;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks div {
+    margin-top: 32px;
+    margin-right: 24px;
+    width: 41%;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks div h3 {
+    font-size: 28px;
+    line-height: 32px;
+    width: 100%;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks div h4 {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks div p {
+    font-size: 13px;
+    line-height: 17px;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div:last-of-type {
+    margin-top: 40px;
+  }
+  div.become-our-partner {
+    padding: 40px 16px;
+  }
+  div.become-our-partner div.titles h3 {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+  }
+  div.become-our-partner div.titles h4 {
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+  }
+  div.become-our-partner form {
+    margin-top: 16px;
+  }
+  div.become-our-partner form div:first-child {
+    display: block;
+  }
+  div.become-our-partner form div:first-child > div {
+    margin-right: 0;
+  }
+  div.become-our-partner form div:first-child > div > input:nth-child(2) {
+    width: 100%;
+  }
+  div.become-our-partner form div:first-child > div:last-child {
+    margin: 0;
+  }
+  div.become-our-partner form div:first-child > div:last-child label {
+    margin-bottom: 8px;
+  }
+  div.become-our-partner form div:first-child > div:last-child > div.specialty input {
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+  div.become-our-partner form > div.newsletter-check {
+    margin-top: 24px;
+  }
+  div.become-our-partner form > div:last-child {
+    margin-top: 16px;
+  }
+  footer.footer {
+    padding: 40px 16px;
+  }
+  footer.footer div.footer-titles h2 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  footer.footer div.footer-info {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 24px;
+  }
+  footer.footer div.footer-info div {
+    margin-bottom: 8px;
+  }
+  footer.footer div.footer-info div a {
+    margin-left: 0;
+  }
+  footer.footer div.footer-info div a span:first-child {
+    margin-right: 16px;
+    width: 14px;
+    height: 16px;
+  }
+  footer.footer div.footer-info div a span:first-child svg {
+    width: 14px;
+    height: 16px;
+  }
+  footer.footer div.footer-info div a span:last-child {
+    font-size: 13px;
+    line-height: 17px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -206,9 +773,6 @@ a {
           align-items: center;
   background-color: #005098;
   padding: 110px;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
   width: 50%;
 }
 
@@ -308,9 +872,6 @@ a {
 
 .first-form .second-block {
   width: 50%;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
 }
 
 .first-form .second-block img {
@@ -319,7 +880,7 @@ a {
 }
 
 .who-we-are {
-  padding: 110px;
+  padding: 80px;
 }
 
 .who-we-are .text-logo {
@@ -351,8 +912,7 @@ a {
   line-height: 20px;
   letter-spacing: 0.02em;
   font-weight: normal;
-  height: 100px;
-  width: 506px;
+  width: 100%;
 }
 
 .who-we-are .text-logo div:last-child {
@@ -425,11 +985,7 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  width: 118px;
-}
-
-.who-we-are .achievements div div:last-child span:last-child.width {
-  width: 58%;
+  width: 100%;
 }
 
 hr {
@@ -437,7 +993,7 @@ hr {
 }
 
 .why-to-work-with-us {
-  padding: 160px 0;
+  padding: 100px 0;
 }
 
 .why-to-work-with-us .main-block {
@@ -453,7 +1009,7 @@ hr {
 }
 
 .why-to-work-with-us .main-block > div img {
-  height: auto;
+  height: 100%;
   width: 100%;
 }
 
@@ -474,11 +1030,13 @@ hr {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-top: 64px;
+  margin-top: 24px;
 }
 
 .why-to-work-with-us .main-block .second-block .six-blocks div {
-  width: 230px;
+  width: 29%;
+  margin-top: 40px;
+  margin-right: 24px;
 }
 
 .why-to-work-with-us .main-block .second-block .six-blocks div h3 {
@@ -489,13 +1047,12 @@ hr {
   letter-spacing: 0.02em;
   border-bottom: 1px solid black;
   padding-bottom: 16px;
-  width: 168px;
   margin-bottom: 16px;
 }
 
 .why-to-work-with-us .main-block .second-block .six-blocks div h4 {
   font-weight: 800;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 28px;
   letter-spacing: 0.02em;
 }
@@ -503,13 +1060,13 @@ hr {
 .why-to-work-with-us .main-block .second-block .six-blocks div p {
   margin-top: 16px;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 28px;
   letter-spacing: 0.02em;
 }
 
 .why-to-work-with-us .main-block .second-block > div:last-of-type {
-  margin-top: 80px;
+  margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
