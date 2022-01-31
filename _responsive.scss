@@ -1,4 +1,4 @@
-// Tablet
+// Small desktop
 @media screen and (max-width: 1312px) {
   label {
     font-weight: 300;
@@ -270,7 +270,7 @@
     }
   }
 }
-// Tablet ============================
+// Tablet
 @media screen and (max-width: 992px) {
   label {
     font-weight: 300;
@@ -543,7 +543,7 @@
     }
   }
 }
-// Mobile ==========================================
+// Mobile
 @media screen and (max-width: 320px) {
   label {
     font-weight: 300;
@@ -612,7 +612,6 @@
       }
     }
   }
-
   div.hero {
     flex-direction: column-reverse;
     div.text {
