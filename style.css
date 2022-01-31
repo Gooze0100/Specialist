@@ -11,6 +11,7 @@ html,
 body {
   font-family: "Nunito Sans", "Kumbh Sans", sans-serif;
   color: #1c1c1b;
+  position: relative;
 }
 
 img {
@@ -57,6 +58,297 @@ input {
   padding: 16px 24px;
   border-radius: 30px;
   cursor: pointer;
+}
+
+:root {
+  --swiper-navigation-size: 40px !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+div.swiper-button-next,
+div.swiper-button-prev {
+  color: #fff;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media screen and (max-width: 1312px) {
+  label {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  input {
+    padding: 8px 24px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  button.btn {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    padding: 16px 24px;
+  }
+  div.hero div.text {
+    padding: 190px 96px 190px 96px;
+  }
+  div.hero div.text div h1 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  div.hero div.text div h2 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+  div.second-part div:first-child img {
+    height: 100%;
+  }
+  div.second-part div.description {
+    padding: 160px 96px;
+  }
+  div.second-part div.description p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  div.first-form div.first-block {
+    padding: 88px;
+  }
+  div.first-form div.first-block > div:first-child div div.flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  div.first-form div.first-block > div:first-child div div.flex h2 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  div.first-form div.first-block > div:first-child div p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+  div.first-form div.first-block form div:first-child div:first-child {
+    margin-right: 16px;
+    width: 47%;
+  }
+  div.first-form div.first-block form div:first-child div:last-child {
+    width: 48%;
+  }
+  div.first-form div.first-block form div.selection div:last-child input {
+    margin-bottom: 16px;
+  }
+  div.first-form div.first-block form div.st-newsletter {
+    margin-bottom: 32px;
+    margin-top: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  div.first-form div.first-block form div.st-newsletter label {
+    font-size: 13px;
+    line-height: 18px;
+  }
+  div.first-form div.second-block img {
+    height: 100%;
+  }
+  div.who-we-are {
+    padding: 110px 64px 74px 64px;
+  }
+  div.who-we-are div.text-logo div:first-child {
+    width: 44%;
+  }
+  div.who-we-are div.text-logo div:first-child h2 {
+    font-size: 34px;
+    line-height: 36px;
+  }
+  div.who-we-are div.text-logo div:first-child p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  div.who-we-are div.text-logo div:last-child {
+    width: 50%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  div.who-we-are div.text-logo div:last-child svg {
+    width: 60%;
+    height: auto;
+  }
+  div.who-we-are div.achievements {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+  div.who-we-are div.achievements > div {
+    margin-bottom: 5px;
+  }
+  div.who-we-are div.achievements > div div:first-child {
+    font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 8px;
+  }
+  div.who-we-are div.achievements > div div:last-child {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  div.who-we-are div.achievements > div div:last-child span:first-child {
+    font-size: 36px;
+    line-height: 36px;
+    margin-right: 8px;
+  }
+  div.who-we-are div.achievements > div div:last-child span:last-child {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  div.why-to-work-with-us {
+    padding: 80px 0;
+  }
+  div.why-to-work-with-us div.main-block > div {
+    width: 50%;
+  }
+  div.why-to-work-with-us div.main-block > div img {
+    height: 100%;
+  }
+  div.why-to-work-with-us div.main-block div.second-block {
+    padding: 0 88px;
+    width: 50%;
+  }
+  div.why-to-work-with-us div.main-block div.second-block h3 {
+    font-size: 34px;
+    line-height: 36px;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks {
+    margin-top: 24px;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks div {
+    margin-top: 40px;
+    margin-right: 24px;
+    width: 28%;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks div h3 {
+    font-size: 32px;
+    line-height: 36px;
+    width: 100%;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks div h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div.six-blocks div p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  div.why-to-work-with-us div.main-block div.second-block div:last-of-type {
+    margin-top: 80px;
+  }
+  div.become-our-partner {
+    padding: 88px 96px 76px 96px;
+  }
+  div.become-our-partner div.titles h3 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  div.become-our-partner div.titles h4 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  div.become-our-partner form {
+    margin-top: 32px;
+  }
+  div.become-our-partner form div:first-child div {
+    margin-right: 10px;
+  }
+  div.become-our-partner form div:first-child div.fit {
+    width: 24%;
+  }
+  div.become-our-partner form div:first-child > div:last-child {
+    margin: 0;
+  }
+  div.become-our-partner form div:first-child > div:last-child > div.specialty {
+    margin: 0;
+  }
+  div.become-our-partner form div:first-child > div:last-child > div.specialty input {
+    padding: 8px 16px;
+    margin-right: 10px;
+  }
+  div.become-our-partner form div.newsletter-check {
+    margin-top: 41px;
+  }
+  div.become-our-partner form div.newsletter-check label {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  div.become-our-partner form div:last-child {
+    margin-top: 25px;
+  }
+  footer.footer {
+    padding: 64px 193px 62px 193px;
+  }
+  footer.footer div.footer-titles h2 {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  footer.footer div.footer-info {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-top: 40px;
+  }
+  footer.footer div.footer-info div a {
+    margin-left: 0;
+  }
+  footer.footer div.footer-info div a span:first-child {
+    margin-right: 16px;
+  }
+  footer.footer div.footer-info div a span:first-child svg {
+    width: 14px;
+    height: 16px;
+  }
+  footer.footer div.footer-info div a span:last-child {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -326,6 +618,39 @@ input {
     font-weight: 600;
     padding: 8px 24px;
   }
+  :root {
+    --swiper-navigation-size: 20px !important;
+  }
+  div.swiper-button-next,
+  div.swiper-button-prev {
+    margin-left: 0;
+    margin-right: 0;
+    width: 4px;
+  }
+  div.hero div.slide-show div.img-slide-show div.swiper div.swiper-wrapper div.swiper-slide div.hero-slide-show-block svg.stanley {
+    width: 50%;
+    bottom: 10px;
+  }
+  div.hero div.slide-show div.img-slide-show div.swiper div.swiper-wrapper div.swiper-slide div.hero-slide-show-block svg.irwin {
+    height: auto;
+    width: 50%;
+    bottom: 10px;
+  }
+  div.hero div.slide-show div.img-slide-show div.swiper div.swiper-wrapper div.swiper-slide div.hero-slide-show-block svg.kemper {
+    height: auto;
+    width: 50%;
+    bottom: 20px;
+  }
+  div.hero div.slide-show div.img-slide-show div.swiper div.swiper-wrapper div.swiper-slide div.hero-slide-show-block svg.samedia {
+    height: auto;
+    width: 40%;
+    bottom: 10px;
+  }
+  div.hero div.slide-show div.img-slide-show div.swiper div.swiper-wrapper div.swiper-slide div.hero-slide-show-block svg.fisher {
+    height: auto;
+    width: 50%;
+    bottom: 15px;
+  }
   div.hero {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -517,6 +842,7 @@ input {
     height: 100%;
   }
   div.why-to-work-with-us div.main-block div.second-block {
+    width: 100%;
     padding: 32px 16px 40px 16px;
   }
   div.why-to-work-with-us div.main-block div.second-block h3 {
@@ -565,6 +891,9 @@ input {
   }
   div.become-our-partner form div:first-child {
     display: block;
+  }
+  div.become-our-partner form div:first-child div.fit {
+    width: 100%;
   }
   div.become-our-partner form div:first-child > div {
     margin-right: 0;
@@ -626,25 +955,6 @@ input {
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  border: none;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-html,
-body {
-  font-family: "Nunito Sans", "Kumbh Sans", sans-serif;
-  color: #1c1c1b;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -655,7 +965,7 @@ a {
 
 .hero .text {
   width: 50%;
-  padding: 247px 130px;
+  padding: 170px 130px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -689,11 +999,17 @@ a {
   width: 50%;
 }
 
-.hero .slide-show .img-slide-show div {
+.hero .slide-show .img-slide-show div.hero-slide-show-block {
   position: relative;
+  width: 100%;
 }
 
-.hero .slide-show .img-slide-show div svg {
+.hero .slide-show .img-slide-show div.hero-slide-show-block img.stanley-img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero .slide-show .img-slide-show div.hero-slide-show-block svg {
   position: absolute;
   z-index: 1;
   bottom: 60px;
@@ -702,6 +1018,37 @@ a {
           transform: translateX(-50%);
   height: auto;
   width: 40%;
+}
+
+.hero .slide-show .img-slide-show div.hero-slide-show-block .stanley {
+  bottom: 10px;
+  width: 32%;
+}
+
+.hero .slide-show .img-slide-show div.hero-slide-show-block .irwin {
+  height: auto;
+  width: 30%;
+  bottom: 18px;
+}
+
+.hero .slide-show .img-slide-show div.hero-slide-show-block .kemper {
+  height: auto;
+  width: 30%;
+}
+
+.hero .slide-show .img-slide-show div.hero-slide-show-block .samedia {
+  height: auto;
+  width: 21%;
+}
+
+.hero .slide-show .img-slide-show div.hero-slide-show-block .sand-storm {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 542px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(99.48%, rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 99.48%);
 }
 
 .second-part {

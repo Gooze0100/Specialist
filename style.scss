@@ -1,33 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 @import "variables";
 @import "utilities";
+@import "swiper";
 @import "responsive";
-
-* {
-  margin: 0;
-  padding: 0;
-  border: none;
-  box-sizing: border-box;
-}
-
-html,
-body {
-  font-family: "Nunito Sans", "Kumbh Sans", sans-serif;
-  color: $primary;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-// ===========================
 
 .hero {
   display: flex;
   flex-wrap: wrap;
   .text {
     width: 50%;
-    padding: 247px 130px;
+    padding: 170px 130px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -53,8 +35,13 @@ a {
   .slide-show {
     width: 50%;
     .img-slide-show {
-      div {
+      div.hero-slide-show-block {
         position: relative;
+        width: 100%;
+        img.stanley-img {
+          width: 100%;
+          height: 100%;
+        }
         svg {
           position: absolute;
           z-index: 1;
@@ -64,17 +51,43 @@ a {
           height: auto;
           width: 40%;
         }
+        .stanley {
+          bottom: 10px;
+          width: 32%;
+        }
+        .irwin {
+          height: auto;
+          width: 30%;
+          bottom: 18px;
+        }
+        .kemper {
+          height: auto;
+          width: 30%;
+        }
+        .samedia {
+          height: auto;
+          width: 21%;
+        }
+        .sand-storm {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          top: 542px;
+          background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.5) 99.48%
+          );
+        }
       }
     }
   }
 }
-
 .second-part {
   display: flex;
   flex-wrap: wrap;
-  //   align-items: center;
   justify-content: center;
-
   & > div:first-child {
     width: 50%;
     img {
@@ -85,7 +98,6 @@ a {
   div.description {
     padding: 110px;
     width: 50%;
-
     & > div:first-child {
       margin-bottom: 20px;
       svg {
@@ -110,7 +122,6 @@ a {
     }
   }
 }
-
 .first-form {
   display: flex;
   flex-wrap: wrap;
@@ -150,7 +161,6 @@ a {
           &:last-child {
             width: 50%;
           }
-
           input {
             width: -webkit-fill-available;
           }
@@ -212,7 +222,6 @@ a {
     }
   }
 }
-
 .who-we-are {
   padding: 80px;
   .text-logo {
@@ -289,14 +298,11 @@ a {
     }
   }
 }
-
 hr {
   border: 4px solid $background;
 }
-
 .why-to-work-with-us {
   padding: 100px 0;
-
   .main-block {
     display: flex;
     flex-wrap: wrap;
@@ -307,7 +313,6 @@ hr {
         width: 100%;
       }
     }
-
     .second-block {
       padding: 0 60px;
       h3 {
@@ -320,7 +325,6 @@ hr {
         display: flex;
         flex-wrap: wrap;
         margin-top: 24px;
-
         div {
           width: 29%;
           margin-top: 40px;
@@ -359,12 +363,10 @@ hr {
     }
   }
 }
-
 .become-our-partner {
   background-color: $background;
   color: white;
   padding: 80px 168px;
-
   .titles {
     h3 {
       font-size: 52px;
@@ -381,7 +383,6 @@ hr {
       margin-top: 8px;
     }
   }
-
   form {
     margin-top: 32px;
     & div:first-child {
@@ -392,18 +393,15 @@ hr {
         flex-direction: column;
         align-items: flex-start;
         margin-right: 24px;
-
         div.specialty {
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
-
           input {
             border: 1px solid white;
             background-color: $background;
             color: white;
             margin-right: 16px;
-
             &:nth-child(2) {
               background-color: white;
               color: $primary;
@@ -412,7 +410,6 @@ hr {
         }
       }
     }
-
     .newsletter-check {
       display: flex;
       align-items: center;
@@ -432,7 +429,6 @@ hr {
         margin: 0;
       }
     }
-
     & > div:last-of-type {
       display: flex;
       justify-content: center;
@@ -441,18 +437,15 @@ hr {
     }
   }
 }
-
 footer {
   padding: 80px 0;
   background-color: $footerBackground;
-
   .footer-titles {
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     h2 {
       font-weight: 800;
       font-size: 52px;
@@ -460,31 +453,26 @@ footer {
       letter-spacing: 0.02em;
     }
   }
-
   .footer-info {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-
     div a {
       color: white;
       display: flex;
       justify-content: center;
       align-items: center;
       margin-left: 32px;
-
       span {
         &:first-child {
           margin-right: 17.45px;
           display: flex;
           align-items: center;
         }
-
         svg {
           height: 24px;
           width: 21.09px;
-
           path {
             fill: white;
           }
